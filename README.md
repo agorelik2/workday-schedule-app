@@ -10,7 +10,10 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 ```
 The app allows to add important events to a daily planner
 to help employees manage their time effectively.
+
+## Screenshot
 ```
+![2020-07-15 (1)](https://user-images.githubusercontent.com/65925449/87591473-5de72b80-c6b6-11ea-8df1-5a80181349f7.png)
 
 ## Functionality
 
