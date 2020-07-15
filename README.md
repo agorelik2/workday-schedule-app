@@ -8,7 +8,8 @@ Used the [Moment.js](https://momentjs.com/) library to work with date and time. 
 ## Purpose
 
 ```
-The app allows to add important events to a daily planner. The purpose is to help employees manage their time effectively.
+The app allows to add important events to a daily planner. The purpose is to help employees 
+manage their time more effectively.
 
 ## Screenshot
 
