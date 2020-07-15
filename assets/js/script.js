@@ -13,22 +13,20 @@ $(document).ready(function () {
     setInterval(update, 1000);
 
     
-    //Assign saveBtn click listener for user input and time stamp??
+    //Assign saveBtn click listener for user input and time stamp
     $(".saveBtn").on("click", function () {
         
         //Loop through every save button and read the description next to it
         var task = $(this).siblings(".description").val();
         //Loop through every save button and read the div id next to it
         var timeHour = $(this).parent().attr("id");
-        //var timeHour = $(this).parent().attr("id").slice(4);  
         
-        //Save task description in local storage.
+        //Save timehour/task pair in local storage
         localStorage.setItem(timeHour, task);
-        console.log ("Key stored: " + timeHour)
-        console.log ("Task stored: " + task)
+        
     })
     
-    //Loop to load saved task descriptions from LocalStorage
+    //Loop to load and display saved task descriptions from LocalStorage
     $(".description").each(function(){
         $(this).val(localStorage.getItem($(this).parent().attr("id")));
         

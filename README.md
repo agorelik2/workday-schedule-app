@@ -15,7 +15,7 @@ to help employees manage their time effectively.
 ## Functionality
 
 ```
-WHEN user opens the planner, the current day and time is displayed at the top of the calendar.
+WHEN user opens the planner, the current day and time is displayed at the top of the calendar. 
 WHEN user scrolls down, he/she is presented with timeblocks for standard business hours.
 WHEN user views the timeblocks for that day, each timeblock is color coded to indicate whether it is in the past, present, or future.
 WHEN user clicks into a timeblock, he/she can enter a new or update an existing event.
@@ -27,6 +27,7 @@ WHEN user refreshes the page, the saved events persist.
 The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+
 
 ## Review
 
