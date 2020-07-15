@@ -1,17 +1,17 @@
 # workday-schedule-app
 # 05 Third-Party APIs: Work Day Scheduler
 
-Created a simple calendar application that allows the user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
+Created a simple daily planner application that allows user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Used the [Moment.js](https://momentjs.com/) library to work with date and time. Date/time is going to be dynamically displayed on the screen.
 
 ## Purpose
 
 ```
-The app allows to add important events to a daily planner
-to help employees manage their time effectively.
+The app allows to add important events to a daily planner. The purpose is to help employees manage their time effectively.
 
 ## Screenshot
+
 ```
 ![2020-07-15 (1)](https://user-images.githubusercontent.com/65925449/87591473-5de72b80-c6b6-11ea-8df1-5a80181349f7.png)
 
@@ -34,8 +34,9 @@ The following animation demonstrates the application functionality:
 
 ## Review
 
-You are required to submit the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application:
+    https://agorelik2.github.io/workday-schedule-app/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* The URL of the GitHub repository:
+    https://github.com/agorelik2/workday-schedule-app
