@@ -8,8 +8,8 @@ Used the [Moment.js](https://momentjs.com/) library to work with date and time. 
 ## Purpose
 
 ```
-The app allows to add important events to a daily planner. The purpose is to help employees 
-manage their time more effectively.
+The app allows to add important events to a daily planner. The purpose of the app is to help employees 
+manage their time more effectively.The events are stored in local storage in the browser and the data is retained upon refreshing the browser page. Additionally, there is the ability to overwrite and edit entries in the daily planner. The planner is responsive to the current date and time and will show past hours as gray, current hour as green, and future hours as red. The Workday-Scheduler utilizes HTML, CSS, JavaScript, jQuery, and Moment.JS. I updated this app to incorporate real time functionality by utilizing set interval for date and time validation.
 
 ## Screenshot
 
