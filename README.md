@@ -13,7 +13,6 @@ manage their time more effectively.The events are stored in local storage in the
 
 Screenshot of the app is below:
 
-```
 ![2020-07-15 (1)](https://user-images.githubusercontent.com/65925449/87591473-5de72b80-c6b6-11ea-8df1-5a80181349f7.png)
 
 ## Functionality
