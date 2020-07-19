@@ -35,11 +35,11 @@ $(document).ready(function () {
     //Loop over time blocks and color them based on past, present or future
     function taskTracker() {
         //Get current hour based on moment()
-        var currentHour = moment().hour();
-
+        var currentHour = moment().hours();
+        console.log ("Current Hour: " + currentHour);
         // Loop over time blocks
         $(".time-block").each(function () {
-            var taskHour = parseInt($(this).attr("id").split("hour")[1]);
+            var taskHour = parseInt($(this).attr("id").split("r")[1]);
             console.log( taskHour, currentHour)
 
             //Compare task hour to current hour based on moment()
